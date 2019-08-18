@@ -1,5 +1,6 @@
-#FROM cptactionhank/atlassian-confluence
-FROM leehanson/docker-atlassian-confluence
+
+#FROM leehanson/docker-atlassian-confluence
+FROM cptactionhank/atlassian-confluence:6.15.7
 
 USER root
 
